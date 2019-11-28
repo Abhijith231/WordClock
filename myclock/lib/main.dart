@@ -1,6 +1,5 @@
 import 'dart:async';
 
-
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -310,6 +309,9 @@ class WordClock {
         eleven = true;
         break;
       case 12:
+        twelve = true;
+        break;
+      case 0:
         twelve = true;
         break;
     }
